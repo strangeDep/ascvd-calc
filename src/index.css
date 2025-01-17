@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .custom-input {
+        @apply border-gray-300 shadow-sm focus:border-yellow-500 focus:ring-yellow-500 text-black;
+    }
+
+    .custom-button-active {
+        @apply bg-yellow-500 text-white;
+    }
+
+}
